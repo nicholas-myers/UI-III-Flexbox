@@ -249,6 +249,31 @@ img.middle-img {
 	text-align: left;
 }
 
+/* SERVICES CONTENT */
+
+.serviceAreas {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.area {
+	background-color: lightgray;
+	border: 1px solid black;
+	width: 40%;
+	padding: 1%;
+	margin: 1%;
+}
+
+.area h2 {
+	border: none;
+	background-color: lightgray;
+}
+
+.area p {
+	border: none;
+	background-color: lightgray;
+}
 
 /* FOOTER */
 address {
