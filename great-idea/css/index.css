@@ -66,31 +66,39 @@ h1, h2, h3, h4, h5 {
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
 /* GENERAL */
-/* * {
+* {
+	max-width: 100%;
 	border: 1px solid gray !important;
-} */
+}
 
 body {
+	margin: 1%;
 	font-family: 'Carter One', cursive;
 }
 
 /* NAVIGATION */
 nav {
 	background-color: darkblue;
-	padding: 2%;
 	border: 1px solid yellow;
 	outline: 1px solid black;
+	display: flex;
 }
 
 nav div {
-	display: inline;
+	display: flex;
+	justify-content: space-between;
 	width: 100%;
+}
+
+.links {
+	display: flex;
+	align-items: center;
+	width: 80%;
 }
 
 nav a {
 	text-decoration: none;
 	color: white;
-	margin: 5% 3%;
 	font-size: 20px;
 	text-shadow: 1px 1px yellow;
 	text-shadow: 2px 2px 2px black;
@@ -104,9 +112,15 @@ nav a:hover {
 	transition: 1s;
 }
 
-img.logo {
-	display: inline;
-	margin-left: 5%;
+.logo {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	width: 20%;
+}
+
+.logoImage {
+	display: flex;
 	filter: invert(100%);
 }
 
