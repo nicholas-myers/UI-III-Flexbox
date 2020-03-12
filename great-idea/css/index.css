@@ -68,7 +68,6 @@ h1, h2, h3, h4, h5 {
 /* GENERAL */
 * {
 	max-width: 100%;
-	max-height: 100%;
 	text-align: center;
 	/* border: 1px solid gray !important; */
 }
@@ -253,12 +252,13 @@ img.middle-img {
 
 .serviceAreas {
 	display: flex;
-	justify-content: space-around;
 	flex-wrap: wrap;
+	justify-content: space-around;
 }
 
 .area {
 	background-color: lightgray;
+	border-radius: 25px;
 	border: 1px solid black;
 	width: 40%;
 	padding: 1%;
@@ -268,11 +268,13 @@ img.middle-img {
 .area h2 {
 	border: none;
 	background-color: lightgray;
+	border-radius: 25px;
 }
 
 .area p {
 	border: none;
 	background-color: lightgray;
+	border-radius: 25px;
 }
 
 /* FOOTER */
