@@ -355,3 +355,31 @@ footer p {
 b {
 	font-weight: bold;
 }
+
+/* CONTACT FORM */
+
+form div{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	align-items: center;
+}
+
+.submit {
+	background-color: lightblue;
+	border: 1px solid black;
+	box-shadow: 2px 2px darkblue;
+	font-size: 20px;
+	text-shadow: 1px 1px yellow;
+	text-shadow: 1px 1px 1px yellow;
+	font-family: 'Carter One', cursive;
+	transition: 1s;
+}
+
+.submit:hover {
+	background-color: dodgerblue;
+	color: white;
+	text-shadow: 2px 2px black;
+	text-shadow: 2px 2px 2px black;
+	transition: 1s;
+}
