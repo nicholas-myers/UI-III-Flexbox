@@ -277,6 +277,50 @@ img.middle-img {
 	border-radius: 25px;
 }
 
+.serviceAreas button {
+	width: 30%;
+}
+
+/* FACTS CONTENT */
+.facts {
+	display: flex;
+	justify-content: space-around;
+}
+
+.facts div {
+	width: 40%;
+}
+
+.facts div:first-child {
+	background-color: lightblue;
+	border: 1px solid black;
+}
+
+.facts div:first-child h2 {
+	border: none;
+}
+
+.facts div:first-child p {
+	border: none;
+	text-align: left;
+}
+
+.facts img {
+	border: 2px solid yellow;
+	outline: 2px solid black;
+}
+
+ul {
+	list-style-type: square !important;
+	padding: 1%;
+}
+
+li {
+	text-align: left;
+	list-style-type: circle;
+	list-style-position: inside;
+}
+
 /* FOOTER */
 address {
 	display: flex;
